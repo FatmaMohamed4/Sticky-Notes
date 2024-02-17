@@ -1,10 +1,12 @@
 this is a  simple Sticky notes app
 you can :
-    add Note ,
-    delete Note ,
-    get Note by their _id , 
-    get all Notes ,
-    update Note ,
+    //add Note ,
+    //delete Note ,
+    //get Note by their _id , 
+    //get all Notes ,
+    //update Note ,
+
+    and to test populate() , you should use
 
     //signIn
 
