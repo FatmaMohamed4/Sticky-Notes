@@ -1,11 +1,22 @@
-this is a  simple ToDo app
+this is a  simple Sticky notes app
 you can :
-    add Task ,
-    delete task ,
-    get task by their number , 
-    get all tasks ,
-    mark a task whick is turned to be completed ,
-    update task ,
+    add Note ,
+    delete Note ,
+    get Note by their _id , 
+    get all Notes ,
+    update Note ,
 
+    //signIn
+
+
+I used new functions to build its CRUD opertations and these are have a diffrenent logic from my last projects  : 
+  noteModel (schema for Note and User) 
+  .populate()  (simple to get the info of a user for each note)
+  .insertMany()
+  .findOne()
+  .findByIdAndUpdate()
+  .findByIdAndDelete()
+  
+  
 Postman :
-https://red-robot-260140.postman.co/workspace/CoursesApi~5c3c71d2-0cb6-4764-b757-8d52959e9e6c/folder/27242949-93284d40-c1cd-4e92-a9ec-52f7967564fd?ctx=documentation
+https://red-robot-260140.postman.co/workspace/CoursesApi~5c3c71d2-0cb6-4764-b757-8d52959e9e6c/collection/27242949-18614055-7769-4085-95dd-e14b2896b4b7?action=share&creator=27242949
